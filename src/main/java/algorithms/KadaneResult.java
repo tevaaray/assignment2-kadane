@@ -1,13 +1,25 @@
 package algorithms;
 
 public class KadaneResult {
-    public final long maxSum;
-    public final int start;
-    public final int end;
+    private final long maxSum;
+    private final int startIndex;
+    private final int endIndex;
 
-    public KadaneResult(long maxSum, int start, int end) {
+    public KadaneResult(long maxSum, int startIndex, int endIndex) {
         this.maxSum = maxSum;
-        this.start = start;
-        this.end = end;
+        this.startIndex = startIndex;
+        this.endIndex = endIndex;
+    }
+
+    public long getMaxSum() {
+        return maxSum;
+    }
+
+    public int getStartIndex() {
+        return startIndex;
+    }
+
+    public int getEndIndex() {
+        return endIndex;
     }
 }
