@@ -1,4 +1,5 @@
 cli\BenchmarkRunner.class
 algorithms\Kadane.class
+algorithms\Main.class
 algorithms\KadaneResult.class
 metrics\PerformanceTracker.class
